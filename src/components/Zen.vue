@@ -29,10 +29,10 @@ const startTimer = () => {
     update()
 }
 
-const stopTimer = () => {
-    elapsed.value = 0
-    cancelAnimationFrame(handle)
-}
+// const stopTimer = () => {
+//     elapsed.value = 0
+//     cancelAnimationFrame(handle)
+// }
 
 // computed 
 const progressRate = computed(() => {
